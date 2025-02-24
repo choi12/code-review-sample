@@ -94,7 +94,7 @@ src/
 
 - 서브 컴포넌트 분리와 Custom Hook을 통한 로직 추상화
 - Context 기반의 스크린 단위 상태 관리
-- 달력 등 성능이 중요한 화면은 Props Drilling 사용
+- 달력처럼 많은 자식 컴포넌트가 각각 독립적인 데이터만 필요로 하는 경우, 불필요한 구독을 피하기 위해 Props Drilling 고려
 
 ### Custom Hook 설계
 
